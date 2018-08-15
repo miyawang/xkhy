@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+
 //使用mint-ui
 import Mint from 'mint-ui';
 Vue.use(Mint);
@@ -17,9 +18,9 @@ import 'mint-ui/lib/style.css';
 // Vue.component(Swipe.name, Swipe);
 // Vue.component(SwipeItem.name, SwipeItem);
 
-// import '../static/css/style.css' /*引入公共样式*/
-// import '../static/css/iconfont.css' /*引入公共样式*/
-
+// import '@/assets/iconfont/iconfont.css'
+// import '@/assets/css/style.css'
+// import '@/assets/css/footer.css'
 
 
 Vue.config.productionTip = false

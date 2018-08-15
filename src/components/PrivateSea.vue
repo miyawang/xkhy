@@ -5,14 +5,14 @@
 </template>
 
 <script>
-  export default {
-    name: 'hello',
-    data () {
-      return {
-        msg: 'header'
-      }
+export default {
+  name: 'PrivateSea',
+  data () {
+    return {
+      msg: 'PrivateSea'
     }
   }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

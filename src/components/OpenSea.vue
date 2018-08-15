@@ -6,10 +6,10 @@
 
 <script>
   export default {
-    name: 'hello',
+    name: 'OpenSea',
     data () {
       return {
-        msg: 'foot'
+        msg: 'OpenSea'
       }
     }
   }
