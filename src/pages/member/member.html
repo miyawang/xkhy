@@ -5,19 +5,16 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>私海</title>
+  <title>Document</title>
 </head>
 <body>
 <header>
-  <div class="header_title">私海</div>
+  <div class="header_title">个人中心</div>
 </header>
-
-<div id="vue-el">
-  
-  <router-view></router-view>
-  <foot></foot>
-
-</div>
+  <div id="member">
+    <router-view></router-view>
+    <foot></foot>
+  </div>
 
 
 <script>
@@ -25,8 +22,5 @@
   var offWidth = window.screen.width / 20;
   document.getElementsByTagName("html")[0].style.fontSize = offWidth + 'px'; //把rem的值复制给顶级标签html的font-size
 </script>
-
-
-
 </body>
 </html>
