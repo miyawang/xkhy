@@ -1,32 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>私海</title>
+  <title>Document</title>
+
 </head>
 <body>
-<header>
-  <div class="header_title">私海</div>
-</header>
-
-<div id="vue-el">
+  <header>
+    <div class="header_title">私海</div>
+  </header>
   
-  <router-view></router-view>
-  <foot></foot>
-
-</div>
-
-
-<script>
-  //通过window.screen.width获取屏幕的宽度
-  var offWidth = window.screen.width / 20;
-  document.getElementsByTagName("html")[0].style.fontSize = offWidth + 'px'; //把rem的值复制给顶级标签html的font-size
-</script>
-
-
-
+  <div id="vue-el">
+    
+    <router-view></router-view>
+    <foot></foot>
+  
+  </div>
+  
 </body>
 </html>
+
+
+
